@@ -1,0 +1,27 @@
+{
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "A vue.js/express.js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexguo789469/message-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexguo789469/message-board/issues"
+  },
+  "homepage": "https://github.com/alexguo789469/message-board#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19"
+  }
+}
